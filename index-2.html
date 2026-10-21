@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IES Kursaal - Más Información</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fafafa;
+            color: #27272a;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #ffffff;
+            color: #18181b;
+            padding: 24px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        header img {
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
+        .header-text h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 700;
+            color: #0f172a;
+        }
+
+        .header-text p {
+            margin: 4px 0 0 0;
+            font-size: 14px;
+            color: #71717a;
+            text-transform: uppercase;
+        }
+
+        nav {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 12px;
+            border-bottom: 1px solid #e4e4e7;
+        }
+
+        nav a {
+            color: #3f3f46;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 15px;
+            margin: 0 12px;
+            padding: 8px 16px;
+            border-radius: 6px;
+        }
+
+        main {
+            max-width: 880px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
+
+        article {
+            background-color: #ffffff;
+            border: 1px solid #e4e4e7;
+            border-radius: 8px;
+            padding: 28px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+        }
+
+        h2 {
+            color: #0f172a;
+            font-size: 20px;
+            border-bottom: 1px solid #f4f4f5;
+            padding-bottom: 10px;
+        }
+
+        .grid-tarjetas {
+            display: grid;
+            gap: 16px;
+            margin-top: 15px;
+        }
+
+        .caja-dato {
+            background-color: #fafafa;
+            border: 1px solid #e4e4e7;
+            padding: 16px;
+            border-radius: 6px;
+        }
+
+        .caja-dato strong {
+            display: block;
+            color: #0f172a;
+            margin-bottom: 6px;
+            font-size: 15px;
+        }
+
+        .caja-dato span {
+            color: #52525b;
+            font-size: 14px;
+            display: block;
+        }
+
+        fieldset {
+            border: 1px solid #e4e4e7;
+            border-radius: 6px;
+            padding: 18px 20px 22px 20px;
+            margin-top: 20px;
+            background-color: #fafafa;
+        }
+
+        legend {
+            font-weight: 600;
+            font-size: 14px;
+            color: #0f172a;
+            padding: 4px 10px;
+            background-color: #ffffff;
+            border: 1px solid #e4e4e7;
+            border-radius: 4px;
+        }
+
+        form label {
+            display: block;
+            font-weight: 600;
+            font-size: 14px;
+            margin-top: 14px;
+            margin-bottom: 6px;
+            color: #27272a;
+        }
+
+        form input, form select, form textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px 12px;
+            border: 1px solid #d4d4d8;
+            border-radius: 6px;
+            background-color: #ffffff;
+            font-family: inherit;
+            font-size: 14px;
+            color: #18181b;
+        }
+
+        .fila-doble {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        form button {
+            margin-top: 20px;
+            margin-right: 10px;
+            background-color: #0f172a;
+            color: #ffffff;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        form button[type="reset"] {
+            background-color: #e4e4e7;
+            color: #27272a;
+        }
+
+        iframe {
+            width: 100%;
+            border: 1px solid #e4e4e7;
+            border-radius: 6px;
+        }
+
+        footer {
+            background-color: #e4e4e7;
+            color: #27272a;
+            text-align: center;
+            padding: 25px 15px;
+            margin-top: 50px;
+            border-top: 1px solid #d4d4d8;
+            font-size: 14px;
+        }
+
+        footer p {
+            margin: 0 0 6px 0;
+            font-weight: 600;
+            color: #0f172a;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT99TMmkYIjDE6A5IrMtJaUgGuYR8z-eAl2VCNG7b3fDA&s=10" alt="Logo IES Kursaal">
+        <div class="header-text">
+            <p>IES Kursaal · Algeciras</p>
+            <h1>Grado Superior en Desarrollo de Aplicaciones Web (DAW)</h1>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Información del Grado</a>
+        <a href="index-2.html">Más Información</a>
+    </nav>
+
+    <main>
+        <section>
+            <article>
+                <h2>Teléfonos y Correos de Contacto</h2>
+                <p>Si necesitas información o resolver alguna duda sobre matrículas, convalidaciones o becas, puedes comunicarte con nosotros:</p>
+
+                <div class="grid-tarjetas">
+                    <div class="caja-dato">
+                        <strong>📍 Dirección</strong>
+                        <span>Av. Virgen del Carmen, 45<br>11201 Algeciras (Cádiz)</span>
+                    </div>
+                    <div class="caja-dato">
+                        <strong>📞 Teléfonos</strong>
+                        <span>Secretaría General: 111 11 11 11<br>Atención Alumnado FP: 111 11 11 11</span>
+                    </div>
+                    <div class="caja-dato">
+                        <strong>✉️ Correos Electrónicos</strong>
+                        <span>secretaria.alumnos@ejemplo.es<br>orientacion.daw@ejemplo.es</span>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <h2>Formulario de Solicitud de Información</h2>
+                <p>Completa el siguiente formulario seleccionando tu perfil y el motivo de tu consulta:</p>
+
+                <form method="post">
+                    
+                    <fieldset>
+                        <legend>1. Datos Personales y de Contacto</legend>
+                        
+                        <div class="fila-doble">
+                            <div>
+                                <label for="nombre">Nombre y Apellidos:</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Ej. Yeray Atalaya" required>
+                            </div>
+                            <div>
+                                <label for="telefono">Teléfono:</label>
+                                <input type="tel" id="telefono" name="telefono" placeholder="Ej. 600 12 03 56">
+                            </div>
+                        </div>
+
+                        <div class="fila-doble">
+                            <div>
+                                <label for="email">Correo electrónico:</label>
+                                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                            </div>
+                            <div>
+                                <label for="localidad">Localidad de procedencia:</label>
+                                <input list="lista-localidades" id="localidad" name="localidad" placeholder="Escribe o selecciona tu municipio...">
+                                <datalist id="lista-localidades">
+                                    <option value="Algeciras"></option>
+                                    <option value="Los Barrios"></option>
+                                    <option value="La Línea de la Concepción"></option>
+                                    <option value="San Roque"></option>
+                                    <option value="Tarifa"></option>
+                                    <option value="Castellar de la Frontera"></option>
+                                    <option value="Jimena de la Frontera"></option>
+                                    <option value="Ceuta"></option>
+                                </datalist>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>2. Perfil Académico y Consulta</legend>
+
+                        <div class="fila-doble">
+                            <div>
+                                <label for="motivo">Motivo de la consulta:</label>
+                                <select id="motivo" name="motivo" required>
+                                    <option value="" disabled selected>Selecciona una opción...</option>
+                                    <optgroup label="Trámites y Secretaría">
+                                        <option value="admision">Proceso de Admisión y Plazos</option>
+                                        <option value="convalidaciones">Convalidación de Módulos (DAM / Otros)</option>
+                                        <option value="becas">Becas del Ministerio y Transporte</option>
+                                    </optgroup>
+                                    <optgroup label="Orientación Académica">
+                                        <option value="salidas">Información sobre FP Dual y Prácticas</option>
+                                        <option value="asignaturas">Temario y Tecnologías del Ciclo</option>
+                                        <option value="otros">Otras consultas</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="acceso">Vía de acceso actual:</label>
+                                <select id="acceso" name="acceso" required>
+                                    <option value="" disabled selected>Selecciona tus estudios...</option>
+                                    <optgroup label="Acceso Directo por Titulación">
+                                        <option value="bachillerato">Título de Bachillerato</option>
+                                        <option value="grado_medio">Ciclo Formativo de Grado Medio</option>
+                                        <option value="grado_superior">Otro Grado Superior o Título Universitario</option>
+                                    </optgroup>
+                                    <optgroup label="Acceso Mediante Prueba">
+                                        <option value="prueba_gs">Prueba de Acceso a Grado Superior</option>
+                                        <option value="prueba_25">Prueba de Acceso a la Universidad (+25 años)</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+
+                        <label for="turno">Preferencia de turno:</label>
+                        <select id="turno" name="turno">
+                            <option value="manana">Horario de Mañana (08:00 a 14:30)</option>
+                            <option value="tarde">Horario de Tarde (15:45 a 22:00)</option>
+                        </select>
+
+                        <label for="mensaje">Tu consulta con detalles:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe aquí tus dudas..." required></textarea>
+                    </fieldset>
+
+                    <button type="submit">Enviar Solicitud</button>
+                    <button type="reset">Limpiar Formulario</button>
+                </form>
+            </article>
+
+            <article>
+                <h2>Ubicación del Instituto (IES Kursaal)</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.4652498433743!2d-5.452386055705005!3d36.13508530176166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c94ceaad65e99%3A0x7897e0a967658cc8!2sIES%20Kursaal!5e1!3m2!1ses!2ses!4v1792535799226!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </article>
+        </section>
+
+        <aside>
+            <article>
+                <h2>Tecnologías y Herramientas que se estudian en DAW</h2>
+                <p>A lo largo de los dos cursos del ciclo formativo trabajarás con las tecnologías más demandadas en el sector del desarrollo web:</p>
+
+                <div class="grid-tarjetas">
+                    <div class="caja-dato">
+                        <strong>🎨 Desarrollo Front-End</strong>
+                        <span>HTML5, CSS3, Bootstrap, JavaScript, etc....</span>
+                    </div>
+                    <div class="caja-dato">
+                        <strong>⚙️ Desarrollo Back-End</strong>
+                        <span>Programación en servidor con PHP, Java y creación de APIs REST.</span>
+                    </div>
+                    <div class="caja-dato">
+                        <strong>🗄️ Bases de Datos y Despliegue</strong>
+                        <span>MySQL, PostgreSQL, MongoDB, control de versiones con Git/GitHub y contenedores Docker.</span>
+                    </div>
+                </div>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Grado Superior en Desarrollo de Aplicaciones Web (DAW)</p>
+        &copy; 2026 - Yeray Atalaya Martín
+    </footer>
+
+</body>
+</html>

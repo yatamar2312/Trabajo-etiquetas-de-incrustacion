@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IES Kursaal - CFGS Desarrollo de Aplicaciones Web (DAW)</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fafafa;
+            color: #27272a;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffffff;
+            color: #18181b;
+            padding: 24px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        header img {
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
+        .header-text h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 700;
+            color: #0f172a;
+        }
+
+        .header-text p {
+            margin: 4px 0 0 0;
+            font-size: 14px;
+            color: #71717a;
+            text-transform: uppercase;
+        }
+
+        nav {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 12px;
+            border-bottom: 1px solid #e4e4e7;
+        }
+
+        nav a {
+            color: #3f3f46;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 15px;
+            margin: 0 12px;
+            padding: 8px 16px;
+            border-radius: 6px;
+        }
+
+        main {
+            max-width: 880px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
+
+        article {
+            background-color: #ffffff;
+            border: 1px solid #e4e4e7;
+            border-radius: 8px;
+            padding: 28px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+        }
+
+        h2 {
+            color: #0f172a;
+            font-size: 20px;
+            border-bottom: 1px solid #f4f4f5;
+            padding-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+            color: #3f3f46;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        figure {
+            background-color: #fafafa;
+            border: 1px solid #f4f4f5;
+            border-radius: 6px;
+            padding: 15px;
+            margin: 20px 0 0 0;
+            text-align: center;
+        }
+
+        figcaption {
+            font-size: 13px;
+            color: #71717a;
+            margin-top: 10px;
+        }
+
+        figure img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .boton-contacto {
+            display: inline-block;
+            margin-top: 12px;
+            background-color: #0f172a;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 22px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        caption {
+            font-size: 13px;
+            color: #71717a;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        th, td {
+            border: 1px solid #e4e4e7;
+            padding: 10px 12px;
+            text-align: left;
+        }
+
+        thead th {
+            background-color: #0f172a;
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        tbody th {
+            background-color: #fafafa;
+            color: #0f172a;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        tfoot td {
+            background-color: #fafafa;
+            font-weight: 600;
+            color: #0f172a;
+        }
+
+        details {
+            background-color: #fafafa;
+            border: 1px solid #e4e4e7;
+            border-radius: 6px;
+            padding: 12px 16px;
+            margin-bottom: 10px;
+        }
+
+        summary {
+            font-weight: 600;
+            color: #0f172a;
+            cursor: pointer;
+        }
+
+        details p {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+            color: #3f3f46;
+        }
+
+        footer {
+            background-color: #e4e4e7;
+            color: #27272a;
+            text-align: center;
+            padding: 25px 15px;
+            margin-top: 50px;
+            border-top: 1px solid #d4d4d8;
+            font-size: 14px;
+        }
+
+        footer p {
+            margin: 0 0 6px 0;
+            font-weight: 600;
+            color: #0f172a;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT99TMmkYIjDE6A5IrMtJaUgGuYR8z-eAl2VCNG7b3fDA&s=10" alt="Logo IES Kursaal">
+        <div class="header-text">
+            <p>IES Kursaal · Algeciras</p>
+            <h1>Grado Superior en Desarrollo de Aplicaciones Web (DAW)</h1>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Información del Grado</a>
+        <a href="index-2.html">Más Información</a>
+    </nav>
+
+    <main>
+        <section>
+            <article>
+                <h2>¿En qué consiste el Grado Superior DAW?</h2>
+                <p>El Ciclo Formativo de Grado Superior en <strong>Desarrollo de Aplicaciones Web (DAW)</strong> impartido en el <strong>IES Kursaal</strong> forma a profesionales especializados en crear, implantar y mantener sitios y aplicaciones web dinámicas, seguras y accesibles, tanto en la parte visual (<strong>Front-End</strong>) como en la lógica del servidor y bases de datos (<strong>Back-End</strong>).</p>
+                <p>Durante los dos cursos aprenderás diseño de interfaces web, programación en entorno cliente (JavaScript y frameworks modernos), desarrollo en entorno servidor (PHP, Java, Node.js), despliegue de aplicaciones en servidores y gestión de bases de datos.</p>
+
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=750" alt="Desarrollo de aplicaciones web en portátil" width="650">
+                    <figcaption>Ejemplo de desarrollo de aplicaciones web con código.</figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <h2>Plan de Estudios: Asignaturas de 1.º y 2.º Curso</h2>
+                <p>El ciclo tiene una duración total de <strong>2.000 horas</strong> distribuidas en dos cursos académicos, incluyendo la fase de formación en empresa:</p>
+
+                <table>
+                    <caption>Distribución de módulos profesionales</caption>
+                    <thead>
+                        <tr>
+                            <th>Curso</th>
+                            <th>Módulo Profesional (Asignatura)</th>
+                            <th>Horas / Semana</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th rowspan="8">1.º DAW</th>
+                            <td>Programación</td>
+                            <td>8 h</td>
+                        </tr>
+                        <tr>
+                            <td>Bases de Datos</td>
+                            <td>6 h</td>
+                        </tr>
+                        <tr>
+                            <td>Sistemas Informáticos</td>
+                            <td>6 h</td>
+                        </tr>
+                        <tr>
+                            <td>Lenguajes de Marcas y Sistemas de Gestión de Información</td>
+                            <td>4 h</td>
+                        </tr>
+                        <tr>
+                            <td>Entornos de Desarrollo</td>
+                            <td>3 h</td>
+                        </tr>
+                        <tr>
+                            <td>Itinerario Personal para la Empleabilidad I (FOL)</td>
+                            <td>3 h</td>
+                        </tr>
+                        <tr>
+                            <td>Digitalización Aplicada a los Sectores Productivos</td>
+                            <td>1 h</td>
+                        </tr>
+                        <tr>
+                            <td>Sostenibilidad Aplicada al Sistema Productivo</td>
+                            <td>1 h</td>
+                        </tr>
+
+                        <tr>
+                            <th rowspan="7">2.º DAW</th>
+                            <td>Desarrollo Web en Entorno Servidor</td>
+                            <td>8 h</td>
+                        </tr>
+                        <tr>
+                            <td>Desarrollo Web en Entorno Cliente</td>
+                            <td>6 h</td>
+                        </tr>
+                        <tr>
+                            <td>Diseño de Interfaces Web</td>
+                            <td>6 h</td>
+                        </tr>
+                        <tr>
+                            <td>Despliegue de Aplicaciones Web</td>
+                            <td>3 h</td>
+                        </tr>
+                        <tr>
+                            <td>Itinerario Personal para la Empleabilidad II (Empresa)</td>
+                            <td>4 h</td>
+                        </tr>
+                        <tr>
+                            <td>Proyecto Intermodular de Desarrollo de Aplicaciones Web</td>
+                            <td>3 h</td>
+                        </tr>
+                        <tr>
+                            <td>Fase de Formación en Empresa u Organismo Equiparado (FCT / Dual)</td>
+                            <td>Trimestre final</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Duración total del Ciclo Formativo de Grado Superior</td>
+                            <td>2.000 horas</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </article>
+
+            <article>
+                <h2>¿Qué puedes estudiar o hacer al finalizar DAW?</h2>
+                <p>Al obtener el título de Técnico Superior en Desarrollo de Aplicaciones Web, tienes múltiples caminos académicos y profesionales:</p>
+                <ul>
+                    <li><strong>Cursos de Especialización (“Másteres de FP”):</strong> Acceso directo a especializaciones oficiales como <em>Ciberseguridad en Entornos de las Tecnologías de la Información</em>, <em>Inteligencia Artificial y Big Data</em> o <em>Desarrollo de Videojuegos y Realidad Virtual</em>.</li>
+                    <li><strong>Doble Titulación en 1 año más (DAM):</strong> Como el primer curso es común, puedes obtener también el título de <em>Desarrollo de Aplicaciones Multiplataforma (DAM)</em> cursando solo un año adicional.</li>
+                    <li><strong>Acceso a la Universidad:</strong> Acceso directo a carreras universitarias como el <em>Grado en Ingeniería Informática</em> o <em>Ingeniería del Software</em>, con reconocimiento de créditos ECTS.</li>
+                    <li><strong>Salidas Profesionales:</strong> Desarrollador Front-End, Desarrollador Back-End, Full-Stack Developer, maquetador de interfaces web o administrador de despliegues web.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h2>Presentación del Ciclo</h2>
+                <p>Conoce algunas de las preguntas más frecuentes sobre el ciclo:</p>
+
+                <figure>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZD8lbaZ4QCk?si=kqOCkgH9TQ6fLSRF" title="YouTube video player" style="border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <figcaption>Vídeo de preguntas frecuentes.</figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <aside>
+            <article>
+                <h2>Información Rápida y Requisitos de Acceso</h2>
+                <p>Consulta de un vistazo los detalles clave antes de realizar tu prescripción en el centro:</p>
+
+                <details>
+                    <summary>¿Qué requisitos necesito para entrar en DAW?</summary>
+                    <p>Tener el título de Bachillerato, un título de Técnico de Grado Medio, otro título de Técnico Superior, titulación universitaria o haber superado la Prueba de Acceso a Grado Superior.</p>
+                </details>
+
+                <details>
+                    <summary>¿Es necesario saber programar antes de empezar?</summary>
+                    <p>No es obligatorio. En 1.º de DAW se empieza desde cero tanto en Programación como en Bases de Datos y Lenguajes de Marcas.</p>
+                </details>
+
+                <details>
+                    <summary>¿Cuándo se solicita plaza en Andalucía?</summary>
+                    <p>El plazo ordinario de presentación de solicitudes en la Secretaría Virtual de la Junta de Andalucía suele abrirse todos los años del <strong>15 al 30 de junio</strong>.</p>
+                </details>
+            </article>
+
+            <article>
+                <h2>¿Tienes dudas o quieres matricularte?</h2>
+                <p>Si quieres consultar los plazos de admisión, convalidaciones de asignaturas o requisitos de acceso, puedes ponerte en contacto con nuestra secretaría o enviarnos tu consulta directamente a través de nuestro formulario web.</p>
+                <a href="index-2.html" class="boton-contacto">Ir a Más Información</a>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Grado Superior en Desarrollo de Aplicaciones Web (DAW)</p>
+        &copy; 2026 - Yeray Atalaya Martín
+    </footer>
+
+</body>
+</html>
